@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+       android:drawable="@drawable/fab2_gradient"
+       android:insetTop="-42px"
+       android:insetLeft="-42px"
+       android:insetRight="-42px"
+       android:insetBottom="-42px"
+/>
