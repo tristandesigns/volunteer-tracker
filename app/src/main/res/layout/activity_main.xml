@@ -5,7 +5,6 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/mainwindow"
         tools:context=".MainActivity">
 
     <RelativeLayout
@@ -16,22 +15,22 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
-                android:layout_alignParentLeft="true"
-                android:layout_marginBottom="50px"
-                android:layout_marginLeft="50px"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="18dp"
+                android:layout_marginLeft="18dp"
                 android:gravity="left|bottom"
                 android:src="@drawable/fab_gradient_scale"
                 android:clickable="true"
                 android:id="@+id/addCat" android:backgroundTint="#FEAE00"
-                app:backgroundTint="#FDA800"/>
+                app:backgroundTint="#FDA800" tools:ignore="RtlHardcoded"/>
         <com.google.android.material.floatingactionbutton.FloatingActionButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
-                android:layout_alignParentRight="true"
-                android:layout_marginBottom="50px"
-                android:layout_marginRight="50px"
-                android:gravity="right|bottom"
+                android:layout_alignParentEnd="true"
+                android:layout_marginBottom="18dp"
+                android:layout_marginEnd="18dp"
+                android:gravity="end|bottom"
                 android:src="@drawable/fab2_gradient_scale"
                 android:clickable="true"
                 android:id="@+id/addEnt" android:backgroundTint="#FEAE00"
@@ -44,7 +43,7 @@
                     android:orientation="vertical"
                     android:gravity="center_horizontal"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent" tools:layout_editor_absoluteY="13dp"
+                    android:layout_height="wrap_content" tools:layout_editor_absoluteY="13dp"
                     android:animateLayoutChanges="true"
                     tools:layout_editor_absoluteX="134dp">
             </LinearLayout>

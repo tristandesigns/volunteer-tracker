@@ -3,19 +3,19 @@
 
 
     <item>
-        <shape xmlns:android="http://schemas.android.com/apk/res/android"
-               android:shape="oval">
+        <shape
+                android:shape="oval">
             <gradient
                     android:type="linear"
                     android:angle="270"
-                    android:startColor="#56CCF2"
-                    android:endColor="#2F80ED" />
+                    android:startColor="#00BCD4"
+                    android:endColor="#03A9F4" />
         </shape>
 
     </item>
     <item android:gravity="center">
 
-        <vector xmlns:android="http://schemas.android.com/apk/res/android"
+        <vector
                 android:width="30dp"
                 android:height="30dp"
                 android:viewportWidth="24.0"
